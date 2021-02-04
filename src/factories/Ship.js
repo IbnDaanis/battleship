@@ -1,7 +1,7 @@
 class Ship {
-  constructor(shipType, position) {
+  constructor(shipType, location) {
     this.shipType = shipType
-    this.position = position
+    this.location = location
     this.hits = []
   }
   hit(positionHit) {
